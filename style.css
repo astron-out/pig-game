@@ -33,6 +33,7 @@ body {
 
 .selected {
   background-color: rgba(230, 230, 230, 0.4);
+  transition: 1s;
 }
 
 .btn-con {
@@ -113,4 +114,13 @@ body {
 
 .hidden {
   display: none;
+}
+
+.player-winner {
+  background-color: rgba(50, 50, 50, 0.87);
+  transition: 0.5s;
+}
+
+.player-winner .player {
+  color: white;
 }
